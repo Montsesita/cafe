@@ -22,7 +22,7 @@
           <a href="InventarioC.php" target="i_contenido">Inventario</a>
         </li>
         <li>
-          <a href="huespedes.php" target="i_contenido">Caja</a>
+          <a href="caja.php" target="i_contenido">Caja</a>
         </li>
         <li>
           <a href="habitaciones.php" target="i_contenido">Usuarios</a>
