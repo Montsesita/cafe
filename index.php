@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Amaury's  Hotel</title>
+  <title>Amaury's  Coffee</title>
   <link href="css/estilo.css" rel="stylesheet">
 </head>
 
@@ -16,16 +16,16 @@
     <div>
       <ul id="menu">
         <li >
-          <a  href="ConsultaReservaciones.php" target="i_contenido">Inicio</a>
+          <a  href="InventarioC.php" target="i_contenido">Inicio</a>
         </li>
         <li>
-          <a href="ConsultaReservaciones.php" target="i_contenido">Registro</a>
+          <a href="InventarioC.php" target="i_contenido">Inventario</a>
         </li>
         <li>
-          <a href="huespedes.php" target="i_contenido">Huespedes</a>
+          <a href="huespedes.php" target="i_contenido">Caja</a>
         </li>
         <li>
-          <a href="habitaciones.php" target="i_contenido">Habitaciones</a>
+          <a href="habitaciones.php" target="i_contenido">Usuarios</a>
         </li>
         <li>
           <a href="#">Bienvenido: <?php session_start(); echo $_SESSION['NombreUsu']; ?></a>
@@ -38,7 +38,7 @@
   </center>
   <div class="container">
     <div>
-      <h1>Amaury's Hotel System</h1>
+      <h1>Amaury's Coffee System</h1>
       <hr>
       <!-- Abro php para conocer la fecha actual -->
       <?php
@@ -48,7 +48,7 @@
       ?>
       <hr>
     </div>
-    <iframe src="ConsultaReservaciones.php" width="100%" height="1000px" name="i_contenido"></iframe>
+    <iframe src="InventarioC.php" width="100%" height="1000px" name="i_contenido"></iframe>
   </div>
 
   <footer>

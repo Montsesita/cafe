@@ -81,7 +81,7 @@ span.psw {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #189b35;
+  background-color: #843912;
 }
 
 ul li a{
@@ -89,7 +89,7 @@ ul li a{
   padding: 8px 16px;
   color: #000;
   text-decoration: none;
-  background-color: #189b35;
+  background-color: #843912;
 
 }
 
@@ -101,12 +101,12 @@ table {
 table th {
   width: 100%;
   border:1 solid #f1f1f1;
-  background-color: #5c8400;
+  background-color: #843912;
 }
 table td {
   width: 100%;
   border:1 solid #f1f1f1;
-  background-color: #7aad05;
+  background-color: #af7152;
 }
 table form {
   border: 0px;
