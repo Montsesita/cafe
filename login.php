@@ -45,9 +45,7 @@ include 'conectaDB.php';
      <button type="submit">Iniciar Sesión</button>
      <br>
      <br>
-     <form action="usuNuevo.php">
-       <button type="submit">Nuevo Usuario</button>
-    </form>
+
 
    </div>
 
@@ -56,6 +54,10 @@ include 'conectaDB.php';
      <span class="psw">Forgot <a href="#">password?</a></span>
    </div> -->
  </form>
+ <form action="usuarios.php">
+   <button type="submit">Nuevo Usuario</button>
+   <a href="../hotel-master/login.php">Ir a Hotel</a>
+</form>
 
  </body>
  </html>

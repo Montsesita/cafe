@@ -16,7 +16,7 @@
     <div>
       <ul id="menu">
         <li >
-          <a  href="InventarioC.php" target="i_contenido">Inicio</a>
+          <a  href="caja.php" target="i_contenido">Inicio</a>
         </li>
         <li>
           <a href="InventarioC.php" target="i_contenido">Inventario</a>
@@ -25,7 +25,7 @@
           <a href="caja.php" target="i_contenido">Caja</a>
         </li>
         <li>
-          <a href="habitaciones.php" target="i_contenido">Usuarios</a>
+          <a href="usuarios.php" target="i_contenido">Usuarios</a>
         </li>
         <li>
           <a href="#">Bienvenido: <?php session_start(); echo $_SESSION['NombreUsu']; ?></a>
@@ -53,7 +53,7 @@
 
   <footer>
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Montsesitap Caballé 2018</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Amaury Morán Davalos | LIA 2018</p>
     </div>
   </footer>
   <script src="vendor/jquery/jquery.min.js"></script>
